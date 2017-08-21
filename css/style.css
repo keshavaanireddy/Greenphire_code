@@ -61,9 +61,9 @@ footer{
 			top:50px;
 			z-index: 9999;
 			/*display: none;*/
-      width: 51%;
+      width: 65%;
       left: 50%;
-      margin-left: -27.5%;
+      margin-left: -33.5%;
 		}
 		#overlay{
 		    width: 100%;
@@ -97,7 +97,7 @@ footer{
 		    width: 42%;
 		}
 		#modalContainer .prodImage img{
-		    width: 98%;
+		    /*width: 98%;*/
 		}
 		#modalContainer .quantity{
 			display: inline-block;
