@@ -1,0 +1,166 @@
+/* Styles go here */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+  padding: 0px;
+  margin: 0px;
+   font-family: 'Montserrat', sans-serif;
+   color: #6d6d6d !important;
+}
+header{
+    background: #b5ffbb;
+    display: inline-block;
+    width: 100%;
+}
+footer{
+    text-align: center;
+    margin: 100px 50px;
+}
+
+#logo{
+    padding: 15px 0;
+    float: left;
+    color: #0300b1;
+    margin-left: 250px;
+    font-weight: bold;
+    color: #0300b1;
+    font-size: 25px
+}
+#menu{
+    float: right;
+    padding: 15px 0;
+    margin-right: 100px;
+}
+#menu ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 30px;
+    text-transform: uppercase;
+    /*display:none;*/
+}
+
+#myView{
+    margin: auto 200px 50px 200px;
+    
+}
+
+#css_view,#dom_view,#script_view{
+  border:2px solid gray;
+  padding:20px;
+  margin-top:50px;
+}
+		
+		#modalContainer{
+			//border: 1px solid red;
+			border-radius:10px;
+			padding: 30px;
+			background: #fff;
+			width: 800px;
+			display: inline-block;
+			position: fixed;
+			top:50px;
+			z-index: 9999;
+			/*display: none;*/
+      width: 51%;
+      left: 50%;
+      margin-left: -27.5%;
+		}
+		#overlay{
+		    width: 100%;
+		    height: 100%;
+		    background: #000;
+		    position: fixed;
+		    top: 0;
+		    left: 0;
+		    z-index: 9998;
+		    opacity: 0.5;
+		    /*display: none;*/
+		}
+		#modalContainer .closeIcon{
+			position: absolute;
+		    right: 15px;
+		    top: 10px;
+		    text-decoration: none;
+		    font-size:20px;
+		    color:black;
+		}
+		#modalContainer .content{
+			background: aqua;
+		}
+		#modalContainer .prodDetails{
+		    float: left;
+		    width: 54%;
+		    padding: 5px 5px 5px 20px;
+		}
+		#modalContainer .prodImage{
+		    float: left;
+		    width: 42%;
+		}
+		#modalContainer .prodImage img{
+		    width: 98%;
+		}
+		#modalContainer .quantity{
+			display: inline-block;
+			border: 1px solid #cccccc;
+			border-radius: 2px;
+			padding: 5px 10px;
+			margin-left: 20px;
+		}
+		/*#modalContainer .prodDetails .quantity .dec a,#modalContainer .prodDetails .quantity .inc a{*/
+		a{
+			text-decoration: none;
+			font-weight: bolder;
+			color: #000;
+		}
+		a:hover{
+		  text-decoration:underline;
+		}
+		#modalContainer .quantity .quantityVal{
+			margin: auto 30px;
+			position: relative;
+			top: -4px;
+		}
+		#modalContainer .prodDetails .quantity .dec{
+		    position: relative;
+		    /*top: -4px;*/
+		}
+		#modalContainer .btns button,#openmodal{
+			background:#343434;
+			color: #fff;
+			border: 0px;
+    		width: 150px;
+    		font-size: 14px;
+		    font-weight: bold;
+		    padding: 15px 20px;
+		    display: block;
+		    margin: 20px 0px;
+		    cursor:pointer;
+		}
+		#modalContainer .prodDetails .title{
+			color: #f66c69;
+			font-size: 35px;
+    		font-weight: bold;
+		}
+		#modalContainer .prodDetails .category,#modalContainer .prodDetails .title,#modalContainer .prodDetails .price{
+			margin: 0;
+		}
+		#modalContainer .prodDetails .title{
+			margin-bottom: 10px;
+		}
+		#personal_details .personal_item table{
+		    border-collapse: collapse;
+		}
+		#personal_details .personal_item table td{
+		  border:1px solid black;
+		  padding:5px;
+		}
+		#personal_details .personal_item table th{
+		  width: 150px;
+      text-align: left;
+      border:1px solid black;
+      background:#ffda95;
+      padding:5px;
+		}
+		#dom_view input.tBox {
+      margin-bottom: 5px;
+    }

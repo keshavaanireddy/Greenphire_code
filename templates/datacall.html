@@ -1,0 +1,38 @@
+<div id="script_view">
+  <h1>Data Call</h1>
+  <div id="dictionary_list">
+    <div class="dl_item" ng-repeat="dl in dlData">
+      <dl>
+        <dt>Event name</dt>
+        <dd>{{dl.en}}</dd>
+        <dt>Event date</dt>
+        <dd>{{dl.ed}}</dd>
+        <dt>Event time</dt>
+        <dd>{{dl.et}}</dd>
+        <dt>Event contact</dt>
+        <dd>{{dl.ec}}</dd>
+      </dl>
+      <hr>
+    </div>
+  </div><br><br>
+  <div id="personal_details">
+    <div class="personal_item">
+      <table>
+       <tr>
+         <th>Last Name</th>
+         <th>First Name</th>
+         <th>Email</th>
+         <th>Phone Number</th>
+         <th>Date of Birth</th>
+       </tr>
+       <tr ng-repeat="p in personDetails">
+         <td>{{p.ln}}</td>
+         <td>{{p.fn}}</td>
+         <td>{{p.em}}</td>
+         <td>{{p.ph}}</td>
+         <td>{{p.dob}}</td>
+       </tr>
+      </table>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+<div id="css_view" ng-init="showmodal=false">
+  <h1>CSS Skills</h1>
+  <button id="openmodal" ng-click="showmodal = true">Open Modal</button>
+  
+  <div id="overlay" ng-show="showmodal"></div>
+  <div id="modalContainer" ng-show="showmodal">
+  	<a class="closeIcon" ng-href="javascript:void(0)" ng-click="showmodal = flase">X</a>
+  	<div class="content">
+  		<div class="prodImage"><img ng-src="http://karenmartini.com/sites/default/files/styles/basic_page_image_narrow/public/Karen_Martini_Profile_0.jpg"></div>
+  		<div class="prodDetails">
+  			<p class="category">fashion</p>
+  			<p class="title">A cake and a giraffe</p>
+  			<p class="price">$300.00</p>
+  			<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+  			<div class="quantity">
+  				<span class="dec"><a href="javascript:void(0)">-</a></span>
+  				<span class="quantityVal">1</span>
+  				<span class="inc"><a href="javascript:void(0)">+</a></span>
+  			</div>
+  			<div class="btns">
+  				<button class="addtocart">ADD TO CART</button>
+  				<button class="viewdetails">VIEW DETAILS</button>
+  			</div>
+  		</div>
+  	</div>
+  </div>
+</div>

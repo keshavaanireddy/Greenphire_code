@@ -1,0 +1,8 @@
+<div id="dom_view" ng-init="tenCheckboxes = [1,2,3,4,5,6,7,8,9,10]">
+  <h1>Calculation and DOM manipulation</h1>
+  <div class="check_text_box" ng-repeat="i in tenCheckboxes">
+    <span><input class="cBox" type="checkbox" ng-model="isChecked"/></span>
+    <input class="tBox" type="text" ng-focus="onTextboxFocus($event)" ng-model="tboxvalue" ng-change="textboxOnchange(this)"/>
+  </div>
+  <p>Total Value :<span ng-bind-html="totalSum"></span></p>
+</div>
